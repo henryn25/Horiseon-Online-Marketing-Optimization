@@ -153,11 +153,10 @@ main h2 {
 }
 
 .aside {
-    display: inline-block;
     margin-right: 50px;
     padding: 20px;
     clear: both;
-    float: right;
+    float:right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -208,13 +207,11 @@ main h2 {
 /* footer */
 
 #footer {
-    display: block;
+    display: inline;
     background-color: red;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-#footer h2 {
     font-size: 20px;
 }
+
